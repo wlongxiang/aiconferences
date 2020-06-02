@@ -161,6 +161,9 @@ td{
         width: 100%;
         margin: 16px 0;
     }
+    #example_wrapper{
+        overflow-x: auto; 
+    }
 }
 
 

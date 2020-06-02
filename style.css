@@ -1,6 +1,7 @@
-html{
-    width: 100%;
-    display:block;
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 body{
     font-family: 'Space Mono', monospace;

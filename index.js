@@ -5,7 +5,7 @@ $(document).ready(function () {
         $.each(result, function (i, field) {
 
             allrow += '<tr>' +
-                '<td><a href=' + field.Link + 'target=\"_blank\">' + field.Conference + '</a></td>' +
+                '<td><a href=' +'"' + field.Link +'"' + ' target=\"_blank\">' + field.Conference + '</a></td>' +
                 '<td>' + field.City + '</td>' +
                 '<td>' + field.Country + '</td>' +
                 '<td>' + field["Start Date"] + '</td>' +

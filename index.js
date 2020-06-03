@@ -13,9 +13,18 @@ $(document).ready(function () {
         "Conference": "NeurIPS 2020",
         "City": "Vancouver",
         "Country": "Cannada",
-        "Start Date": "2020\/12\/02",
+        "Start Date": "2020/12/02",
         "End Date": "2020/12/22",
         "Link": "https://nips.cc/"
+    },
+
+    {
+        "Conference": "EMNLP 2020",
+        "City": "Online",
+        "Country": null,
+        "Start Date": "2020/11/16",
+        "End Date": "2020/11/20",
+        "Link": "https://2020.emnlp.org/"
     },
 
     ]

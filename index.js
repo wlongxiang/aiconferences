@@ -21,6 +21,8 @@ $(document).ready(function () {
                 "paging": false,
                 // below sdom makes search bar dispear, 
                 'sDom': 't',
+                // default sorting by 4th col.
+                "order": [[ 3, "asc" ]]
                 // info: false
             }
 

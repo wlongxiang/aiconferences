@@ -39,11 +39,14 @@ $(document).ready(function () {
     ]
     var allrow = "";
     $.each(result, function (i, field) {
-
+        var icon =  '📍';
+        if (field.City === "Online"){
+            icon = '🔗';
+        }
         allrow += '<tr>' +
             '<td><a href=' + '"' + field.Link + '"' + ' target=\"_blank\">' + field.Conference + '</a></td>' +
-            '<td>' + field.City + '</td>' +
-            '<td>' + field.Country + '</td>' +
+            '<td>' + icon + field.City + '</td>' +
+            '<td>' + icon + field.Country + '</td>' +
             '<td>' + field["Start Date"] + '</td>' +
             '<td>' + field["End Date"] + '</td>' +
             '</tr>';
